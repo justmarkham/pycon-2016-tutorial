@@ -1,18 +1,18 @@
-## Machine Learning with Text in scikit-learn
+## Tutorial: Machine Learning with Text in scikit-learn
 
-Tutorial presented by Kevin Markham at PyCon 2016 in Portland, Oregon.
+Presented by [Kevin Markham](http://www.dataschool.io/about/) at PyCon 2016 (Portland, Oregon)
 
-### Welcome, students!
+### Welcome!
 
-This repository will contain the data files and the notebooks/scripts that you will need for the tutorial. I will email you as soon as those files have been added to the repository.
+This repository will contain the data files and the notebooks/scripts that you will need for the tutorial. I will email enrolled students as soon as those files have been added to the repository.
 
-A detailed description of the tutorial is below, including a list of required software and knowledge prerequisites. If you need a refresher on any of the prerequisite material, I have listed my recommended resources.
+A detailed description of the tutorial is below, including a list of **required software** and **knowledge prerequisites**. If you need a refresher on any of the prerequisite material, I have listed my recommended resources.
 
 Due to slow Internet connections at the conference, you should plan to download this repository and install the required software **before arriving at the conference**.
 
-I look forward to meeting you on **Saturday, May 28 at 9:00am**! Please email me at [kevin@dataschool.io](mailto:kevin@dataschool.io) if you have any questions whatsoever.
+I look forward to meeting you on **Saturday, May 28 at 9:00am**! Please email me at [kevin@dataschool.io](mailto:kevin@dataschool.io) if you have any questions at all.
 
-### Brief Description
+### Description
 
 Although numeric data is easy to work with in Python, most knowledge created by humans is actually raw, unstructured text. By learning how to transform text into data that is usable by machine learning models, you drastically increase the amount of data that your models can learn from. In this tutorial, we'll build and evaluate predictive models from real-world text using scikit-learn.
 
@@ -30,8 +30,8 @@ I will be leading the tutorial using the IPython/Jupyter notebook, and will add 
 
 Attendees to this tutorial should be comfortable working in Python, should understand the basic principles of machine learning, and should have at least basic experience with both pandas and scikit-learn. However, no knowledge of advanced mathematics is required.
 
-- If you need a refresher on scikit-learn or machine learning, I recommend reviewing the notebooks and/or videos from my [scikit-learn video series](https://github.com/justmarkham/scikit-learn-videos), focusing on videos 1 through 5 plus video 9. Alternatively, you may prefer browsing the [tutorials](http://scikit-learn.org/stable/tutorial/index.html) from the scikit-learn documentation.
-- If you need a refresher on pandas, I recommend reviewing the notebook and/or videos from my [pandas video series](https://github.com/justmarkham/pandas-videos). Alternatively, you may prefer reading Greg Reda's 3-part [tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/).
+- If you need a refresher on scikit-learn or machine learning, I recommend reviewing the notebooks and/or videos from my [scikit-learn video series](https://github.com/justmarkham/scikit-learn-videos), focusing on videos 1-5 as well as video 9. Alternatively, you may prefer reading the [tutorials](http://scikit-learn.org/stable/tutorial/index.html) from the scikit-learn documentation.
+- If you need a refresher on pandas, I recommend reviewing the notebook and/or videos from my [pandas video series](https://github.com/justmarkham/pandas-videos). Alternatively, you may prefer reading this 3-part [tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/).
 
 ### Abstract
 
