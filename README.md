@@ -24,7 +24,7 @@ By the end of this tutorial, attendees will be able to confidently build a predi
 
 Attendees will need to bring a laptop with [scikit-learn](http://scikit-learn.org/stable/install.html) and [pandas](http://pandas.pydata.org/pandas-docs/stable/install.html) (and their dependencies) already installed. Installing the [Anaconda distribution of Python](https://www.continuum.io/downloads) is an easy way to accomplish this. Both Python 2 and 3 are welcome.
 
-I will be leading the tutorial using the IPython/Jupyter notebook, and will add a pre-written notebook to this repository before the conference. I will also provide a Python script that is identical to the notebook, which you can use in the Python environment of your choice.
+I will be leading the tutorial using the IPython/Jupyter notebook, and have added a pre-written notebook to this repository. I have also created a Python script that is identical to the notebook, which you can use in the Python environment of your choice.
 
 ### Prerequisite Knowledge
 
