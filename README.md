@@ -2,6 +2,11 @@
 
 Presented by [Kevin Markham](http://www.dataschool.io/about/) at PyCon 2016 (Portland, Oregon)
 
+### Files
+
+* Tutorial: [notebook](tutorial.ipynb), [notebook with output](tutorial_with_output.ipynb), [script](tutorial.py), [SMS dataset](data/sms.tsv)
+* Exercise: [notebook](exercise.ipynb), [notebook with solution](exercise_solution.ipynb), [script](exercise.py), [script with solution](exercise_solution.py), [Yelp dataset](data/yelp.csv)
+
 ### Welcome!
 
 This repository contains the data files and the notebooks/scripts that you will need for the tutorial.
