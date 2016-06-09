@@ -1,21 +1,8 @@
 ## Tutorial: Machine Learning with Text in scikit-learn
 
-Presented by [Kevin Markham](http://www.dataschool.io/about/) at PyCon 2016 (Portland, Oregon)
+Presented by [Kevin Markham](http://www.dataschool.io/about/) at PyCon on May 28, 2016. Watch the complete [tutorial video](https://www.youtube.com/watch?v=ZiKMIuYidY0&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=10) on YouTube.
 
-### Files
-
-* Tutorial: [notebook](tutorial.ipynb), [notebook with output](tutorial_with_output.ipynb), [script](tutorial.py), [SMS dataset](data/sms.tsv)
-* Exercise: [notebook](exercise.ipynb), [notebook with solution](exercise_solution.ipynb), [script](exercise.py), [script with solution](exercise_solution.py), [Yelp dataset](data/yelp.csv)
-
-### Welcome!
-
-This repository contains the data files and the notebooks/scripts that you will need for the tutorial.
-
-A detailed description of the tutorial is below, including a list of **required software** and **knowledge prerequisites**. If you need a refresher on any of the prerequisite material, I have listed my recommended resources.
-
-Due to slow Internet connections at the conference, you should plan to download this repository and install the required software **before arriving at the conference**.
-
-I look forward to meeting you on **Saturday, May 28 at 9:00am**! Please email me at [kevin@dataschool.io](mailto:kevin@dataschool.io) if you have any questions at all.
+[![Watch the complete tutorial video on YouTube](youtube.jpg)](https://www.youtube.com/watch?v=ZiKMIuYidY0&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=10 "Machine Learning with Text in scikit-learn - PyCon 2016")
 
 ### Description
 
@@ -30,6 +17,12 @@ By the end of this tutorial, attendees will be able to confidently build a predi
 Attendees will need to bring a laptop with [scikit-learn](http://scikit-learn.org/stable/install.html) and [pandas](http://pandas.pydata.org/pandas-docs/stable/install.html) (and their dependencies) already installed. Installing the [Anaconda distribution of Python](https://www.continuum.io/downloads) is an easy way to accomplish this. Both Python 2 and 3 are welcome.
 
 I will be leading the tutorial using the IPython/Jupyter notebook, and have added a pre-written notebook to this repository. I have also created a Python script that is identical to the notebook, which you can use in the Python environment of your choice.
+
+### Tutorial Files
+
+* IPython/Jupyter notebooks: [tutorial.ipynb](tutorial.ipynb), [tutorial_with_output.ipynb](tutorial_with_output.ipynb), [exercise.ipynb](exercise.ipynb), [exercise_solution.ipynb](exercise_solution.ipynb)
+* Python scripts: [tutorial.py](tutorial.py), [exercise.py](exercise.py), [exercise_solution.py](exercise_solution.py)
+* Datasets: [data/sms.tsv](data/sms.tsv), [data/yelp.csv](data/yelp.csv)
 
 ### Prerequisite Knowledge
 
@@ -60,27 +53,10 @@ In this tutorial, we'll answer all of those questions, and more! We'll start by 
 
 Kevin Markham is the founder of [Data School](http://www.dataschool.io/) and the former lead instructor for [General Assembly's Data Science course](https://github.com/justmarkham/DAT8) in Washington, DC. He is passionate about teaching data science to people who are new to the field, regardless of their educational and professional backgrounds, and he enjoys teaching both online and in the classroom. Kevin's professional focus is supervised machine learning, which led him to create the popular [scikit-learn video series](https://github.com/justmarkham/scikit-learn-videos) for Kaggle. He has a degree in Computer Engineering from Vanderbilt University.
 
-### Tutorial Introduction
+* Email: [kevin@dataschool.io](mailto:kevin@dataschool.io)
+* Twitter: [@justmarkham](https://twitter.com/justmarkham)
 
-* Required files for today:
-    * Clone or download this repository: [http://bit.ly/pycon2016](http://bit.ly/pycon2016)
-    * IPython/Jupyter notebooks ([tutorial.ipynb](tutorial.ipynb), [exercise.ipynb](exercise.ipynb)) or Python scripts ([tutorial.py](tutorial.py), [exercise.py](exercise.py))
-    * Datasets in the `data` subdirectory ([sms.tsv](data/sms.tsv), [yelp.csv](data/yelp.csv))
-* Required software for today:
-    * [scikit-learn](http://scikit-learn.org/stable/install.html) and [pandas](http://pandas.pydata.org/pandas-docs/stable/install.html) (and their dependencies)
-    * [Anaconda distribution of Python](https://www.continuum.io/downloads) is an easy way to install both of these
-    * Both Python 2 and 3 are welcome
-    * Flash drives are available with Anaconda installers and tutorial files
-* About me:
-    * Founder of Data School: [blog](http://www.dataschool.io/), [YouTube](https://youtube.com/user/dataschool)
-    * Twitter: [@justmarkham](https://twitter.com/justmarkham)
-    * Email: [kevin@dataschool.io](mailto:kevin@dataschool.io)
-* How the tutorial will work
-* What we'll be learning today
-* What I expect you already know
-* Agenda
-
-### Related Resources
+### Recommended Resources
 
 **Text classification:**
 * Read Paul Graham's classic post, [A Plan for Spam](http://www.paulgraham.com/spam.html), for an overview of a basic text classification system using a Bayesian approach. (He also wrote a [follow-up post](http://www.paulgraham.com/better.html) about how he improved his spam filter.)
