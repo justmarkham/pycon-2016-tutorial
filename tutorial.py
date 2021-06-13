@@ -197,7 +197,7 @@ print(y.shape)
 
 
 # split X and y into training and testing sets
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 print(X_train.shape)
 print(X_test.shape)
